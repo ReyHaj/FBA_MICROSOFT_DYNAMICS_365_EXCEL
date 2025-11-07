@@ -1,0 +1,16 @@
+# System / Editor files
+.DS_Store
+*.code-workspace
+~$*.xlsx
+
+# Temporary Excel files
+**/~$*.xls*
+**/~$*.csv
+
+# Raw sensitive data (do not upload)
+excel/raw/**
+
+# Allow working files & final reports
+!excel/working/**
+!excel/reports/**
+!docs/**
